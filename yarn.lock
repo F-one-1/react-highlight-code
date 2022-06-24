@@ -741,6 +741,15 @@ react-dom@^18.0.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-highlight-code@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/react-highlight-code/-/react-highlight-code-0.0.1.tgz#939b8d42d29ad4f4726a096620d29232539ba14a"
+  integrity sha512-TJnrnqpnHk/utIUmUoLfo7GVsTuPVvr3Vel87bk8TkTrbGkSw1sIbqGVlbPzIOpdxYqQrU87YC+NgUmUJJfh6g==
+  dependencies:
+    highlight.js "^11.5.1"
+    react "^18.0.0"
+    react-dom "^18.0.0"
+
 react-refresh@^0.13.0:
   version "0.13.0"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.13.0.tgz#cbd01a4482a177a5da8d44c9755ebb1f26d5a1c1"

@@ -16,7 +16,7 @@ export default function HighCode(props) {
     width = '520px',
     height = '',
     maxWidth = '',
-    maxHeight = '',
+    maxHeight = '200px',
     scrollStyleBool = true,
     codeValue = '',
     fontSize = 16,
@@ -41,7 +41,7 @@ export default function HighCode(props) {
     [`language-${lang}`]: true,
   })
   const codeHighlight = useRef(null)
-
+  console.log(langName, props.langName, 'langName')
   useEffect(() => {
     // eslint-disable-next-line no-unused-expressions
     if (codeHighlight && codeHighlight.current) {
@@ -75,7 +75,7 @@ export default function HighCode(props) {
       }}
     >
       <div className="code_header">
-        {nameShow && <TypeShow TL={props.langName}></TypeShow>}
+        {nameShow && <TypeShow TL={langName || props.langName}></TypeShow>}
         {copy && <CopyCode codeValue={props.codeValue}></CopyCode>}
       </div>
       <div
