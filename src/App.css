@@ -1,0 +1,8 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.code {
+  margin: 20px;
+}
