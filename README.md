@@ -5,9 +5,6 @@
 
 
 <p>
-  <a href="https://npm-stat.com/charts.html?package=react-highlight-code">
-    <img alt="Downloads" src="https://img.shields.io/npm/dm/react-highlight-code.svg">
-  </a>
   <a href="https://npmjs.com/package/react-highlight-code">
     <img alt="Version" src="https://img.shields.io/npm/v/react-highlight-code.svg"/>
   </a>
